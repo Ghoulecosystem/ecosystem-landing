@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[373],{7270:function(e,t,a){"use strict";a.r(t),a.d(t,{FaqPage:function(){return u}});var r=a(7294),n=a(3701),u=function(e){return r.createElement(n.Ar,e,r.createElement(n.By,e))};t.default=u}}]);
+//# sourceMappingURL=component---src-pages-faq-index-js-bec16a7ea8f4a0aa8b04.js.map

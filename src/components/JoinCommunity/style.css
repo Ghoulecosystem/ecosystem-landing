@@ -1,0 +1,5 @@
+.discordIcon:after {
+content: url('https://api.iconify.design/mdi-discord.svg?color=white&height=28');
+vertical-align: -1em;
+padding-right: 6px;
+}

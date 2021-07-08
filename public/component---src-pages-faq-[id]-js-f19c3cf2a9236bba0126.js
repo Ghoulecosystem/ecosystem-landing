@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[513,373],{71:function(e,t,a){"use strict";a.r(t);var r=a(7270);t.default=r.FaqPage},7270:function(e,t,a){"use strict";a.r(t),a.d(t,{FaqPage:function(){return n}});var r=a(7294),u=a(3701),n=function(e){return r.createElement(u.Ar,e,r.createElement(u.By,e))};t.default=n}}]);
+//# sourceMappingURL=component---src-pages-faq-[id]-js-f19c3cf2a9236bba0126.js.map

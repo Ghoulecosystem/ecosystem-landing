@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[549],{6048:function(e,t,a){"use strict";a.r(t);var r=a(7294),u=a(3701);t.default=function(e){return r.createElement(u.Ar,e,r.createElement(u.T4,null))}}}]);
+//# sourceMappingURL=component---src-pages-staking-js-cf7f37b370201d32604f.js.map

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body,
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #16161a!important;
+  margin: 0 auto;
+  padding: 0;
+}
+body * {
+  font-family: "Lato", sans-serif !important;
+}
+a {
+  text-decoration: none !important;
+}
+.container {
+  max-width: 1110px;
+}
+.container,
+.road-map-container {
+  margin: 0 auto;
+  padding: 0 20px;
+  color: #fff;
+}
+.road-map-container {
+  max-width: 900px;
+}
+.rewardcontainer {
+  margin: 0 auto;
+  max-width: 1446px;
+  color: #fff;
+}
+.appbarcolor {
+  background-color: #0ff;
+}
+.nav-container {
+  margin: auto;
+  max-width: 1110px;
+  color: #fff;
+  background-color: #16161a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 0 20px;
+}
+.routerlink {
+  text-decoration: none;
+  color: #fff;
+}
+.dropdown-menu {
+  display: none;
+  z-index: 1;
+}
+.menu:hover .dropdown-menu {
+  display: block;
+}
