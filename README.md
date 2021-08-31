@@ -9,6 +9,6 @@
 
 
 * Website: [https://ghoultoken.io](https://ghoultoken.io)
-* Telegram: [https://t.me/poltergeistexchange](https://t.me/poltergeistexchange)
+* Telegram: [https://t.me/poltergeistlabs](https://t.me/poltergeistlabs)
 
 
