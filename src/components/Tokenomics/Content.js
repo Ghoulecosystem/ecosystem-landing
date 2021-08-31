@@ -122,9 +122,8 @@ export const Content = () => {
             <img alt="Logo" src={ghostdai} className={classes.tokenLogo}/>$GHOSTDAI</Typography>
         </div>
         <Typography className={classes.listDescription}>
-          A privacy stablecoin with a secure, fast and untraceable transaction
-          layer for users. Anyone can deposit select stablecoins from public
-          chains to mint GhostDai 1:1, for use within the ecosystem. 
+          A private stablecoin with a secure and untraceable transaction
+          layer for users. Anyone can deposit select coins and tokens from public and private chains to mint $gDAI, for use within the ecosystem. 
         </Typography>
       </div>
     </div>

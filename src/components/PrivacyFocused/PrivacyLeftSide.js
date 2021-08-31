@@ -117,8 +117,7 @@ export const PrivacyLeftSide = () => {
         <span className={classes.title2}>& Untraceable Stablecoin</span>
       </Typography>
       <Typography className={classes.description}>
-        <span className={classes.mintFocus}>Mint $GHOSTDAI</span> using popular
-        Stablecoins.
+        <span className={classes.mintFocus}>Mint $gDAI</span> using select privacy coins and tokens.
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
@@ -153,7 +152,7 @@ export const PrivacyLeftSide = () => {
           </a>
         </div>
         <div className={classes.btnsWrapper}>
-          <a href="#soon" className={classes.btnLink}>
+          <a href="https://ghoul.finance" className={classes.btnLink}>
             <Button
               variant="contained"
               color="secondary"
@@ -161,7 +160,7 @@ export const PrivacyLeftSide = () => {
               style={{ width: 225 }}
             >
               Launch App{" "}
-              <span style={{ fontSize: 10, marginLeft: 5 }}>coming soon</span>
+              <span style={{ fontSize: 10, marginLeft: 5 }}>alpha</span>
             </Button>
           </a>
         </div>

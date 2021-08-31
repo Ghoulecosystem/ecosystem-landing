@@ -26,19 +26,14 @@ export const SocialIcon = (props) => {
   const buttonPadding = props.compact ? 0 : 12;
   return (
     <div>
-      <a href="https://twitter.com/PoltergeistDEX">
+      <a href="https://twitter.com/Poltergeistlabs">
         <IconButton
           style={{ paddingRight: buttonPadding, paddingLeft: buttonPadding }}
         >
           <TwitterIcon className={classes.socialIcon} />
         </IconButton>
       </a>
-      <a href="/">
-        <IconButton style={{ paddingRight: buttonPadding }}>
-          <span className="discord"></span>
-        </IconButton>
-      </a>
-      <a href="https://t.me/poltergeistexchange">
+      <a href="https://t.me/poltergeistlabs">
         <IconButton style={{ paddingRight: buttonPadding }}>
           <TelegramIcon className={classes.socialIcon} />
         </IconButton>

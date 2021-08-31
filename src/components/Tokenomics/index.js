@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import { floatingIcon } from "../../images";
 import { Lottie } from "..";
-import floating from "./floating_anim.json";
+import floating from "./ghost-float.json";
 import { Content } from "./Content";
 
 const useStyles = makeStyles((theme) => ({
