@@ -9,8 +9,7 @@ import ghoulfly1 from "./ghoul_fly1.json";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    paddingTop: 200,
-    paddingBottom: 200,
+    paddingBottom: 50,
     position: "relative",
     [theme.breakpoints.down("xs")]: {
       paddingTop: 0,

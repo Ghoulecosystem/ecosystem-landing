@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
-import { logo2, ghostdai } from "../../images";
+import { logo2} from "../../images";
 import { Font } from "..";
 
 const useStyles = makeStyles(theme => ({
@@ -12,19 +12,7 @@ const useStyles = makeStyles(theme => ({
       textAlign: "center",
     },
   },
-  title: {
-    fontSize: Font.l,
-    marginBottom: 25,
-    [theme.breakpoints.down("md")]: {
-      fontSize: Font.size40,
-    },
-    [theme.breakpoints.down("sm")]: {
-      width: "auto",
-      fontSize: Font.size28,
-      lineHeight: 1.2,
-      marginBottom: 40,
-    },
-  },
+
   list: {
     display: "flex",
     alignItems: "flex-start",
@@ -78,11 +66,10 @@ const useStyles = makeStyles(theme => ({
 
 }));
 
-export const Content = () => {
+export const LeftContent = () => {
   const classes = useStyles();
   return (
     <div className={classes.body}>
-      <Typography className={classes.title}>Tokenomics</Typography>
 
       <div>
         <div className={classes.list}>
@@ -92,40 +79,39 @@ export const Content = () => {
           </Typography>
         </div>
         <Typography className={classes.listDescription}>
-          The ecosystem’s profit sharing, governance and utility token. Benefits
-          and rewards to Ghoul stakers increase as core roadmap projects are
-          developed.
+          The Super DAO Governance and Utility Token for voting on the general direction the wider Ghoul Ecosystem. 
+          $Ghoul stakers can earn the new DAO Governance tokens of existing and upcoming projects. 
+          Holders of 50k+ $Ghoul have access to exclusive airdrops and early access to PRIFI Dapps.
+          Rewards and benefits increase as roadmap projects are developed further.
           <br />
           <br />
           <ul>
-            <li>Initial Supply: 100000000 GHOUL</li>
-            <li>Burned Supply: 42991369 GHOUL</li>
-            <li>Final Supply: 57008631 GHOUL</li>
-            <li>Locked Dev Fund: 15000000 GHOUL</li>
-            <li>Circulating Supply: 42008631 GHOUL</li>
+            <li>Initial Supply: 100,000000 GHOUL</li>
+            <li>Burned Supply: 42,991,369 GHOUL</li>
+            <li>Locked Team Fund: 15,000,000 GHOUL (Til April 2022)</li>
+            <li>Final Supply: 57,008,631 GHOUL</li>
+            <li>Circulating Supply: 42,008,631 GHOUL</li>
             <li>
-              ETH:{" "}
+              ETH:
               <a
-                style={{ color: "#56ff99" }}
+                style={{ color: "#56ff99", marginLeft:"5px" }}
                 href="https://etherscan.io/token/0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
-              >
-                0x3bb86d867a9f3addf994cdadb210fa82f0d4157a
+              >0x3bb86d867a9f3addf994cdadb210fa82f0d4157a
+              </a>
+            </li>
+            <li>
+              BSC:
+              <a
+                style={{ color: "#56ff99", marginLeft:"5px" }}
+                href="https://bscscan.com/token/0x171ce6141e7a5980222bc6b757ee2f1f95b3264e"
+              >0x171ce6141e7a5980222bc6b757ee2f1f95b3264e
               </a>
             </li>
           </ul>
         </Typography>
       </div>
 
-      <div>
-        <div className={classes.list}>
-          <Typography className={classes.listNumber}>
-            <img alt="Logo" src={ghostdai} className={classes.tokenLogo}/>$GHOSTDAI</Typography>
-        </div>
-        <Typography className={classes.listDescription}>
-          A private stablecoin with a secure and untraceable transaction
-          layer for users. Anyone can deposit select coins and tokens from public and private chains to mint $gDAI, for use within the ecosystem. 
-        </Typography>
-      </div>
+
     </div>
   );
 };

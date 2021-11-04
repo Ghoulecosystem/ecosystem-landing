@@ -38,11 +38,6 @@ export const SocialIcon = (props) => {
           <TelegramIcon className={classes.socialIcon} />
         </IconButton>
       </a>
-      <a href="https://www.reddit.com/r/PoltergeistDEX/">
-        <IconButton style={{ paddingRight: buttonPadding }}>
-          <RedditIcon className={classes.socialIcon} />
-        </IconButton>
-      </a>
 
     </div>
   );

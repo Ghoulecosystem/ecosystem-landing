@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Grid } from "@material-ui/core";
-
+import { Typography, Grid } from "@material-ui/core";
+import { Font } from "..";
 import { StackLeftSide } from "./StackLeftSide";
 import { StackRightSide } from "./StackRightSide";
 import { stakeGhoulBg } from "../../images";
@@ -33,6 +33,18 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 
+  title: {
+    fontSize: Font.l,
+    [theme.breakpoints.down("md")]: {
+      fontSize: Font.size40,
+    },
+    [theme.breakpoints.down("xs")]: {
+      fontSize: Font.size28,
+      width: "100%",
+      lineHeight: 1.2,
+    },
+  },
+
 }));
 
 export const StakeGhoul = () => {
@@ -41,6 +53,7 @@ export const StakeGhoul = () => {
     <div className={classes.body}>
       <div className={classes.mainarea}>
         <div className="container">
+        <Typography className={classes.title}>Ghoul Staking</Typography>
           <Grid container className={classes.maincontainer}>
             <Grid item md={6} sm={12} xs={12}>
               <StackLeftSide />

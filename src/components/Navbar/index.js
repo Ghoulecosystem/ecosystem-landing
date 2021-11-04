@@ -53,18 +53,16 @@ export const Navbar = (props) => {
           <Link className={`${classes.menubarLink} routerlink`} to="/#tokenomics">
             Tokenomics
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to="/staking">
-            Staking
+          <Link className={`${classes.menubarLink} routerlink`} to="/ecosystem">
+            Ecosystem
           </Link>          
           <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
             Roadmap
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to={darkpaper}>
-            Darkpaper
+          <Link className={`${classes.menubarLink} routerlink`} to="https://PoltergeistLabs.redbubble.com">
+            Shop
           </Link>          
-          <Link className={`${classes.menubarLink} routerlink`} to="https://docs.ghoultoken.io/">
-            Documentation
-          </Link>
+
         </div>
         <Hamburger {...props} />
       </div>

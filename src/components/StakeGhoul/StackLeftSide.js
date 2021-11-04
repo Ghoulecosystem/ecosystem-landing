@@ -6,9 +6,8 @@ import { logo } from "../../images";
 
 const useStyles = makeStyles((theme) => ({
   constainer: {
-    paddingLeft: 118,
-    paddingTop: 250,
-    paddingBottom: 250,
+    paddingLeft: 30,
+    paddingBottom: 150,
     [theme.breakpoints.down("xs")]: {
       paddingLeft: 0,
       paddingTop: 50,
@@ -20,17 +19,7 @@ const useStyles = makeStyles((theme) => ({
       textAlign: "center",
     },
   },
-  title: {
-    fontSize: Font.l,
-    [theme.breakpoints.down("md")]: {
-      fontSize: Font.size40,
-    },
-    [theme.breakpoints.down("xs")]: {
-      fontSize: Font.size28,
-      width: "100%",
-      lineHeight: 1.2,
-    },
-  },
+
   description: {
     color: theme.palette.secondary.textColor,
     width: 340,
@@ -105,45 +94,35 @@ export const StackLeftSide = () => {
   const classes = useStyles();
   return (
     <div className={classes.constainer} id="staking">
-      <Typography className={classes.title}>Staking</Typography>
       <Typography className={classes.description}>
-        Stake your GHOUL on Poltergeist Exchange for governance voting and earning rewards within the ecosystem.
+        Stake your $GHOUL towards projects within the ecosystem to earn their governance and utility tokens.
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
 
-          <a href="/staking" className={classes.btnLink}>
+          <a href="/ecosystem" className={classes.btnLink}>
             <Button
               variant="contained"
               color="primary"
               className={`${classes.btnCommon} ${classes.downloadBtn}`}
             >
-              View Staking Tiers
+              View Ecosystem
             </Button>
           </a>
         </div>
+
         <div className={classes.btnsWrapper}>
-          <a
-            href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
-            target="_blank"  rel="noreferrer"
-            className={classes.btnLink}
-          >
+
+          <a href="/roadmap" className={classes.btnLink}>
             <Button
               variant="contained"
-              color="secondary"
-              className={classes.btnCommon}
+              color="primary"
+              className={`${classes.btnCommon} ${classes.downloadBtn}`}
             >
-              <img
-                src={logo}
-                alt="logo"
-                style={{ width: 20, marginRight: 8 }}
-              />
-              Buy $GHOUL{" "}
+              View Roadmap
             </Button>
           </a>
-
         </div>
-
        
       </div>
       

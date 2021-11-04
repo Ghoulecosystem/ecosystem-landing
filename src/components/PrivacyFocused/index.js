@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid } from "@material-ui/core";
 import { Font } from "..";
-import { background } from "../../images";
+import { background, gdailogo } from "../../images";
 import { PrivacyLeftSide } from "./PrivacyLeftSide";
 
 
@@ -72,10 +72,16 @@ export const PrivacyFocused = () => {
         <div className={classes.mainareaBg} />
         <div className="container" id="soon">
           <Grid container className={classes.privacycontainer}>
-            <Grid item lg={7} md={6} sm={12} xs={12}>
+            <Grid item lg={8} md={6} sm={12} xs={12}>
               <PrivacyLeftSide />
             </Grid>
-            <Grid item lg={5} md={6} sm={12} xs={12}>
+            <Grid item lg={4} md={6} sm={12} xs={12}>
+              <img src=""/>
+              <img
+                src={gdailogo}
+                alt="gdai logo"
+                style={{ width: 300 }}
+              />
 
             </Grid>
           </Grid>

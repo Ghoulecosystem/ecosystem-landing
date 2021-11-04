@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Button } from "@material-ui/core";
 
 import { SocialIcon, Font } from "..";
-import { logo } from "../../images";
+import { logo, gdailogo } from "../../images";
 import { darkpaper } from "../../data";
 
 const useStyles = makeStyles(theme => ({
@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   title2: {
-    fontSize: Font.l,
+    fontSize: "30px",
     fontWeight: "normal",
     width: 700,
     [theme.breakpoints.down("md")]: {
@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
   description: {
     fontSize: Font.m,
-    width: 430,
+    width: 500,
     color: theme.palette.secondary.textColor,
     paddingTop: 50,
     [theme.breakpoints.down("md")]: {
@@ -78,14 +78,14 @@ const useStyles = makeStyles(theme => ({
     },
   },
   btnCommon: {
-    width: "196px",
+    width: "225px",
     height: "48px",
     borderRadius: 8,
     marginLeft: 16,
     textTransform: "capitalize",
     color: "white",
     [theme.breakpoints.down("md")]: {
-      width: "180px",
+      width: "225px",
       fontSize: Font.size12,
     },
     [theme.breakpoints.down("sm")]: {
@@ -94,7 +94,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   downloadBtn: {
-    width: 160,
+    width: 225,
     border: "1px solid #FFFFFF",
     "&:hover": {
       backgroundColor: "rgba(255,255,255, 0.15)",
@@ -113,16 +113,33 @@ export const PrivacyLeftSide = () => {
   return (
     <div>
       <Typography className={classes.title}>
-        Privacy Focused Ecosystem{" "}
-        <span className={classes.title2}>& Untraceable Stablecoin</span>
+        GhostDAI (gDAI){" "}<br/>
+        <span className={classes.title2}>The Ghoul Ecosystem's Stablecoin Protocol</span>
       </Typography>
       <Typography className={classes.description}>
-        <span className={classes.mintFocus}>Mint $gDAI</span> using select privacy coins and tokens.
+        <span className={classes.mintFocus}>Borrow $gDAI at 0% interest</span>, backed with collateral of your crypto holdings.
       </Typography>
       <div className={classes.btnarea}>
         <div className={classes.btnsWrapper}>
+
+          <a href="https://app.ghoul.finance" className={classes.btnLink}>
+            <Button
+              variant="contained"
+              color="secondary"
+              className={classes.btnCommon}
+              style={{ width: 225 }}
+            >
+              <img
+                src={gdailogo}
+                alt="gdai"
+                style={{ width: 20, marginRight: 8 }}
+              />
+              LAUNCH APP{" "}
+            </Button>
+          </a>         
+
           <a
-            href="https://app.uniswap.org/#/swap?use=V2&&exactAmount=36.99&inputCurrency=0x6b175474e89094c44da98b954eedeac495271d0f&outputCurrency=0x3bb86d867a9f3addf994cdadb210fa82f0d4157a"
+            href="https://pancakeswap.finance/swap?outputCurrency=0x171ce6141e7a5980222bc6b757ee2f1f95b3264e"
             target="_blank"  rel="noreferrer"
             className={classes.btnLink}
           >
@@ -137,30 +154,20 @@ export const PrivacyLeftSide = () => {
                 alt="logo"
                 style={{ width: 20, marginRight: 8 }}
               />
-              Buy $GHOUL{" "}
+              BUY $GHOUL{" "}
             </Button>
           </a>
 
-          <a href={darkpaper} className={classes.btnLink}>
+
+        </div>
+        <div className={classes.btnsWrapper}>
+          <a href="https://docs.ghoul.finance" className={classes.btnLink}>
             <Button
               variant="contained"
               color="primary"
               className={`${classes.btnCommon} ${classes.downloadBtn}`}
             >
-              Read Darkpaper
-            </Button>
-          </a>
-        </div>
-        <div className={classes.btnsWrapper}>
-          <a href="https://ghoul.finance" className={classes.btnLink}>
-            <Button
-              variant="contained"
-              color="secondary"
-              className={classes.btnCommon}
-              style={{ width: 225 }}
-            >
-              Launch App{" "}
-              <span style={{ fontSize: 10, marginLeft: 5 }}>alpha</span>
+              LEARN MORE
             </Button>
           </a>
         </div>

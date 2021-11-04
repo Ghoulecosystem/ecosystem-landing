@@ -70,14 +70,14 @@ export const Hamburger = (props) => {
           <Link className={`${classes.menubarLink} routerlink`} to="/#tokenomics">
             Tokenomics
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to="/#staking">
+          <Link className={`${classes.menubarLink} routerlink`} to="/ecosystem">
             Staking
           </Link>          
           <Link className={`${classes.menubarLink} routerlink`} to="/roadmap">
             Roadmap
           </Link>
-          <Link className={`${classes.menubarLink} routerlink`} to="/assets/GHOUL_Ecosystem_Darkpaper.txt">
-            Darkpaper
+          <Link className={`${classes.menubarLink} routerlink`} to="https://PoltergeistLabs.redbubble.com">
+            Shop
           </Link>
           </div>
         </div>

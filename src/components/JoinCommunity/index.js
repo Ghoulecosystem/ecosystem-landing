@@ -119,9 +119,9 @@ export const JoinCommunity = () => {
               <Grid spacing={2} container>
                 <Grid
                   item
-                  md={4}
-                  sm={4}
-                  xs={6}
+                  md={6}
+                  sm={12}
+                  xs={12}
                   key={0}
                   style={{ textAlign: "center" }}
                 >
@@ -144,10 +144,10 @@ export const JoinCommunity = () => {
 
                 <Grid
                   item
-                  md={4}
-                  sm={6}
-                  xs={6}
-                  key={2}
+                  md={6}
+                  sm={12}
+                  xs={12}
+                  key={1}
                   style={{ textAlign: "center" }}
                 >
 
@@ -167,30 +167,7 @@ export const JoinCommunity = () => {
                   </a>
                 </Grid>
 
-                <Grid
-                  item
-                  md={4}
-                  sm={6}
-                  xs={6}
-                  key={3}
-                  style={{ textAlign: "center" }}
-                >
 
-                  <a
-                    href="https://www.reddit.com/r/PoltergeistDEX/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      className={classes.button}
-                    >
-                      <RedditIcon style={{ marginRight: 10 }} />
-                      Reddit
-                    </Button>
-                  </a>
-                </Grid>
               </Grid>
             </div>         
             </div>

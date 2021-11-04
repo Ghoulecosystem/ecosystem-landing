@@ -60,7 +60,7 @@ export const Wrapper = () => {
       <div className="container">
         <Grid container style={{ alignItems: "center" }}>
             <Typography className={classes.title}>
-              Ecosystem Roadmap
+              Ghoul Ecosystem Roadmap
             </Typography>
             <h2></h2>
         </Grid>

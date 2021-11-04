@@ -1,6 +1,6 @@
 export * from "./Font";
 export * from "./Roadmap";
-export * from "./Staking";
+export * from "./Ecosystem";
 export * from "./SocialIcon";
 export * from "./Footer";
 export * from "./Footer/Divider";
