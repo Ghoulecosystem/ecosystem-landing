@@ -50,7 +50,7 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.secondary.textColor,
     [theme.breakpoints.down("sm")]: {
       width: "auto",
-      marginTop: 0,
+      marginTop: 20,
     },
   },
   tokenLogo: {
