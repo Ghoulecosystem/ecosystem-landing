@@ -9,7 +9,7 @@ import {
 
 export const Home = () => (
   <>
-    <Seo title="Ghoul Ecosystem" description = "Privacy Focused Ecosystem & Untraceable Stablecoin" />
+    <Seo title="Ghoul Ecosystem" description = "Powered by Poltergeist Labs" />
     <PrivacyFocused />
     <Tokenomics />
     <StakeGhoul />
