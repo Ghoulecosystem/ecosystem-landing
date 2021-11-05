@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ghoultoken.io">
-    <img alt="Ghoul" src="https://ghoultoken.io/images/logo.png" width="60" />
+    <img alt="Ghoul" src="https://www.ghoultoken.io/images/logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
