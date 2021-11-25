@@ -79,7 +79,7 @@ export const RightContent = () => {
           </Typography>
         </div>
         <Typography className={classes.listDescription}>
-          The gDAI DAO Governance Token where holders can create and vote on proposals that manage the mechanics and evolutionary growth of the gDAI Protocol. 
+          The gDAI Governance Token where holders can create and vote on proposals that manage the mechanics and evolutionary growth of the gDAI Protocol. 
           This protocol is a key component for the rest of the Ghoul Ecosystem.
           <br />
           <br />
