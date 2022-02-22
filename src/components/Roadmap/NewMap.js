@@ -43,9 +43,9 @@ export default function NewMap() {
                         <h3>Services</h3>
                         <ul>
                             <li>LaunchBox - For entrepreneurs, projects</li>
-                            <li>AnonCards - Anonymous debit cards</li>
-                            <li>AnonPay - Pay with privacy cryptos</li>
+                            <li>SpectrePay - Web3 Payments on Web2 Sites</li>
                             <li>Mascot - "Public Faces" for Anon projects</li>
+                            <li>AnonCards - Anonymous debit cards</li>
                             <li>Communiti - Real estate development</li>
                         </ul>
                     </div> {/* cd-timeline-content */}
